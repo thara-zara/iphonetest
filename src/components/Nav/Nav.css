@@ -1,0 +1,142 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+}
+.nav-logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.mail input{
+    height: 35px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+.nav-right .mail button{
+    border-radius: 25px;
+    background: rgb(154, 116, 231);
+    border: none;
+    outline: none;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.account,.cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    color: var(--font-color);
+}
+.nav img{
+    width:25px;
+}
+
+.fa-bars{
+    color: var(--font-2);
+    display: none;
+}
+@media screen and (max-width:850px){
+    .nav-right{
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 50px;
+        z-index: 10;
+        height:auto;
+        background: rgb(215, 215, 215);
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px 20px 0px 20px;
+        display: none;
+        border-radius: 20px;
+        overflow: hidden;
+
+    }
+    .nav-right.active{
+        display: block;
+    }
+    .nav-right > div{
+        padding-bottom:25px;
+    }
+    .nav-right .mail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .nav-right .mail button{
+        border-radius: 25px;
+        background: rgb(144, 144, 144);
+        border: none;
+        outline: none;
+        padding: 5px 15px 5px 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .nav .fa-bars{
+        color: var(--font-2);
+        display:block;
+        cursor: pointer;
+    }
+    
+}
+@media screen and (max-width:540px) {
+    .nav-right{
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 50px;
+        z-index: 10;
+        height:auto;
+        background: rgb(215, 215, 215);
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px 20px 0px 20px;
+        display: none;
+        border-radius: 20px;
+        overflow: hidden;
+
+    }
+    .nav-right.active{
+        display: block;
+    }
+    .nav-right > div{
+        padding-bottom:25px;
+    }
+    .nav-right .mail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .nav-right .mail button{
+        border-radius: 25px;
+        background: rgb(144, 144, 144);
+        border: none;
+        outline: none;
+        padding: 5px 15px 5px 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .nav .fa-bars{
+        color: var(--font-2);
+        display:block;
+        cursor: pointer;
+    }
+    
+}
+

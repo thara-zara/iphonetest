@@ -1,0 +1,41 @@
+/* .slider{
+    width:500px;
+    height: 100%;
+    overflow: hidden;
+    overflow: hidden;
+}
+.slider img{
+    width:250px;
+}
+.swiper-button-prev{
+    color: brown;
+    opacity: 1;
+}
+.swiper-pagination-bullet{
+    width: 50px !important;
+    height: 50px !important;
+}
+.swiper-pagination-bullet:nth-child(1)
+{
+    background-color: rgb(43, 218, 210) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet:nth-child(2)
+{
+    background-color: rgb(218, 43, 43) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet:nth-child(3)
+{
+    background-color: rgb(69, 69, 69) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet:nth-child(4)
+{
+    background-color: rgb(43, 116, 218) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: rgb(255, 85, 85) !important;
+    border: 5px solid rgb(42, 42, 42);
+} */

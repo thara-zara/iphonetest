@@ -1,0 +1,13 @@
+.nav-bar{
+    margin: 0px 25px 25px 25px;
+}
+.container{
+    margin: 25px 50px 50px 50px;
+    /* border: 1px solid green; */
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 50px;
+    grid-gap: 50px;
+}

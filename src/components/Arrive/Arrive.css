@@ -1,0 +1,102 @@
+.new-card{
+    width: calc(100/4);
+    height: 250px;
+    /* border: 1px solid red; */
+}
+.new-card .one{
+    background: rgb(255, 108, 108);
+    border-radius: 20px;
+}
+.new-card .two{
+    background: rgb(104, 209, 176);
+    border-radius: 20px;
+}
+.new-card .three{
+    background: rgb(212, 179, 255);
+    border-radius: 20px;
+}
+.new-card .four{
+    background: rgb(152, 175, 255);
+    border-radius: 20px;
+}
+.new-card h3{
+    color: rgb(29, 29, 29);
+    font-size: 18px;
+}
+.new-card p{
+    color: rgb(65, 65, 65);
+    margin-top: 5px;
+    font-size: 15px;
+}
+.new-card h4{
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    margin-top: 5px;
+}
+.new-card .one,.two,.three,.four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 20px 35px 20px;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.top{
+    position: absolute;
+}
+.new-card .top img{
+    width:200px;
+    object-fit: contain;
+}
+.btm{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:850px){
+    .new-card{
+        width: calc(100/4);
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+    .new-card .top img{
+        width:150px;
+    }
+    .new-card .one,.two,.three,.four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px 20px 35px 20px;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width:540px){
+    .new-card{
+        width: calc(100/4);
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+    .new-card .top img{
+        width:150px;
+    }
+    .new-card .one,.two,.three,.four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 35px 20px 35px 20px;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+    }
+}
+
+
+
+

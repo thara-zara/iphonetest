@@ -1,0 +1,25 @@
+.all-producct{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 25px;
+}
+@media screen and (max-width:850px){
+    .cat-top{
+        width: 100%;
+    }
+    .all-producct{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 25px;
+    }
+}
+@media screen and (max-width:540px){
+    .all-producct{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 25px;
+    }
+}
